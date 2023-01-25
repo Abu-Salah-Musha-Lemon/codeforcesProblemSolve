@@ -11,7 +11,7 @@ int main() {
    }
    if(a==b){cout<<"0"<<endl;}
    else{
-       for(int i =0; i>a.size();i++){
+       for(int i =0; i<a.size();i++){
            if(a[i]<b[i]){cout<<"-1"<<endl;break;}
            else{cout<<"0"<<endl;}
        }
